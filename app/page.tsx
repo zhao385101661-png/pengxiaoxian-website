@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+
 const work = [
   {
     image: "/case-22.jpg",
@@ -333,6 +337,3 @@ export default function Home() {
     </main>
   );
 }
-"use client";
-
-import { useState } from "react";
