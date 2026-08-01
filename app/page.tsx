@@ -319,10 +319,10 @@ export default function Home() {
           <p>留下项目需求，我们将为你匹配合适的内容营销方案。</p>
         </div>
         <div className="contact-card">
-          <div><small>合作邮箱</small><strong>business@pengxiaoxian.com</strong></div>
+          <div><small>联系电话</small><strong>18210793777</strong></div>
           <div><small>服务方向</small><strong>影视 · 综艺 · 短剧 · 艺人 · 品牌</strong></div>
           <div><small>工作地点</small><strong>北京</strong></div>
-          <a href="mailto:business@pengxiaoxian.com">发送合作简介 <span>→</span></a>
+          <a href="tel:18210793777">拨打联系电话 <span>→</span></a>
         </div>
       </section>
 
