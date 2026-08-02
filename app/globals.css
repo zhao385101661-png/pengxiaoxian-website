@@ -104,7 +104,7 @@ h1 mark { display:inline-block; background:var(--green); color:#fff; padding:0 .
 .matrix-grid span { font-size:13px; margin-top:14px; }
 .matrix-grid small { color:var(--muted); font-size:10px; margin-top:5px; }
 .about-strip { padding:85px max(24px,calc((100vw - 1240px)/2)); border-top:1px solid var(--line); border-bottom:1px solid var(--line); display:flex; flex-direction:column; gap:22px; align-items:flex-start; }
-.about-strip h2 { font-size:36px; margin:0; max-width:920px; }
+.about-strip h2 { font-size:clamp(28px,2.3vw,36px); margin:0; max-width:none; white-space:nowrap; }
 .about-strip>p:last-child { color:var(--muted); line-height:1.8; margin:0; max-width:780px; }
 .contact { width:min(1240px,calc(100% - 48px)); margin:100px auto; padding:62px; border-radius:20px; background:linear-gradient(110deg,#4da500,#7fc72a); color:#fff; display:grid; grid-template-columns:1.1fr .9fr; align-items:center; gap:70px; }
 .contact .eyebrow { color:#d5efb4; }
@@ -129,6 +129,7 @@ footer div { display:flex; gap:18px; }
   .work-side { grid-template-columns:1fr 1fr; }
   .case-library-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
   .service-intro,.matrix,.contact { grid-template-columns:1fr; }
+  .about-strip h2 { white-space:normal; }
   .contact { gap:35px; padding:45px; }
 }
 @media (max-width:600px) {
